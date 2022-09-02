@@ -1,0 +1,81 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+}
+.megamenu a{
+    font-size: 23px;
+    font-weight: 700;
+}
+.mission-text h1{
+    font-size: 55px;
+    font-weight: 700;
+    
+}
+.mission{
+    color: #FFAD5A;
+}
+.state-line{
+    height: 103px;
+    width: 5px;
+    background-color: #FF5959;
+    position: absolute;
+    top: 158px;
+    left: 106px;
+    border-radius: 9px;
+}
+.link-button button{
+    background-color: #FF5959;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 8px;
+}
+.mixed-plan h1{
+    font-size: 34px;
+    font-weight: 800;
+}
+.img-blog{
+    background-image: url(../image/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+.img-blog1{
+    background-image: url(../image/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.blog h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+.document-button button{
+background-color: #FF5959;
+color: #FFFFFF;
+border-radius: 5px;
+padding: 5px 15px;
+border: none; 
+}
+.safe-corona{
+    font-size: 39px;
+    font-weight: 700;
+}
+.img-blog3{
+    background-image: url(../image/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: right 205px top 34px;
+    border-radius: 45px;
+    background-size: 171px;
+}
+@media screen and (max-width:768px) {
+    .state-line{
+       height: 48px;
+       width: 3px;
+       position: absolute;
+       top: 355px;
+       left: 10px;
+    }
+}
